@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  color: white;
+  margin-left: 0px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  font-size: xx-large;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(brown), to(#e05c5c));
+  background-image: linear-gradient(brown, #e05c5c);
+}
+
+header .foto {
+  width: 120px;
+  height: 400px;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.nuevalista {
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+}
+
+.nuevalista .padre-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nuevalista .padre-flex a {
+  border-bottom: 10px;
+  background-color: black;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  background-image: url(../Img/footermontanas3.jpg);
+  text-align-last: center;
+  border-color: white;
+}
+
+footer .efecto {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+footer .efecto:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+footer .logofbook {
+  width: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+footer .logoWhasap {
+  width: 22px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+footer .logoIG {
+  width: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=home.css.map */

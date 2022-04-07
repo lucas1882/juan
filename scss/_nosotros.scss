@@ -1,0 +1,83 @@
+.card{
+   
+    background-color: rgb(250, 226, 223);
+    border-radius: 100%;
+    padding: 20px;
+    margin: 20px;
+    border-color: black;
+
+}
+.card__title{
+    text-align: left;
+
+}
+.card__description {
+    line-height: 2;
+    text-align: center;
+}
+.card__rrss{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.card__link{
+    
+    margin-right: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+$botonesRedes:(
+    twitter:#1c96c8,
+    instagram:#f28705
+);
+
+@each $red, $color in $botonesRedes {
+    .card__link--#{$red} {
+        background-color: $color;
+        border-radius: 15px;
+        cursor: pointer;
+        text-align: center;
+        border: none;
+    }    
+}   
+
+
+
+
+
+
+
+.seguinos{
+    margin: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.nosotros{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.nosotros__item {
+    width: 280px;
+    height: 200px;
+    cursor: pointer;
+}
+
+
+.imgdesayuno{
+    display:none;
+}
+
+.grid{
+    display: grid;
+    align-self: center;
+}
+
+.nosotrosMobile{
+    display: none;
+}

@@ -1,0 +1,82 @@
+.card {
+  background-color: #fae2df;
+  border-radius: 100%;
+  padding: 20px;
+  margin: 20px;
+  border-color: black;
+}
+
+.card__title {
+  text-align: left;
+}
+
+.card__description {
+  line-height: 2;
+  text-align: center;
+}
+
+.card__rrss {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.card__link {
+  margin-right: 15px;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.card__link--twitter {
+  background-color: #1c96c8;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+}
+
+.card__link--instagram {
+  background-color: #f28705;
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+}
+
+.seguinos {
+  margin: 20px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.nosotros {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.nosotros__item {
+  width: 280px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.imgdesayuno {
+  display: none;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.nosotrosMobile {
+  display: none;
+}
+/*# sourceMappingURL=nosotros.css.map */

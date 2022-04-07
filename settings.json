@@ -1,0 +1,54 @@
+ {
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.editor.untitled.hint": "hidden",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "explorer.confirmDelete": false
+}
+
+{
+    "savePath": "/css"
+    "format": "compressed"
+    "extensionName": ".min.css"
+}
+
+"liveSassCompile.settings.formats":[
+    // This is Default.
+    {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePath": null
+    }
+
+    {
+        "format": "compressed",
+        "extensionName": ".min.css",
+        "savePath": "/dist/css"
+    }
+    {
+        "format": "compressed",
+        "extensionName": ".min.css",
+        "savePath": "/css"
+    }
+]
+"liveSassCompile.settings.excludeList": [ 
+    "**/node_modules/**",
+    ".vscode/**" 
+]
+"liveSassCompile.settings.excludeList": [
+    "path/subpath/*[!(file1|file2)].scss"
+]
+
+"liveSassCompile.settings.includeItems": [
+    "path/subpath/a.scss",
+    "path/subpath/b.scss",
+]
+
+"liveSassCompile.settings.autoprefix": [
+    "> 1%",
+    "last 2 versions"
+]
+
+"liveSassCompile.settings.generateMap": false
+
+"liveSassCompile.settings.showOutputWindow": false
+

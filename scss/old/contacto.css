@@ -1,0 +1,55 @@
+p {
+  line-height: 1.6;
+  padding: 10px;
+}
+
+.contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: italic;
+  font-size: 15px;
+  padding: 5px;
+  text-align: left;
+  display: block;
+  list-style: disc;
+  margin: 5px;
+  padding: 5px;
+  width: 600px;
+}
+
+button[type="submit"] {
+  font-size: 15px;
+  text-align: center;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contactImage {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 100%;
+}
+
+.map {
+  float: right;
+}
+
+.mapaDesitio {
+  display: -ms-grid;
+  display: grid;
+  padding: 70px;
+  height: 400px;
+  width: 500px;
+  margin-right: 45px;
+}
+/*# sourceMappingURL=contacto.css.map */

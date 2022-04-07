@@ -1,0 +1,34 @@
+section {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cabanas {
+    padding-top: 30px;
+    text-align: left;
+    font-size: 35px;
+    color: chocolate;
+    
+}
+.pieCabanas{
+    color: chocolate;
+    background-color: antiquewhite;
+    margin-top: 0px;
+}
+
+.imgCab{
+    width: 1350px;
+    height: 500px;
+    cursor: pointer;
+}
+
+@mixin generic-text {
+    font-size: 15px;
+    text-align: center;
+}
+
+.links{ 
+    @include generic-text;
+    text-decoration: none;
+    margin-right: 25px;
+    cursor: pointer;
+    padding: 10px;
+}

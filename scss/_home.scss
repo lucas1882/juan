@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$color-h1: rgb(12, 11, 11);
+$tipografia-titulo-home: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$fondo-titulo-home: linear-gradient(brown, rgb(224, 92, 92));
+
+
+$primaryColors:(
+    primary: white,
+    secondary: grey,
+    terciary: black
+);
+
+
+
+header{
+    h1 {
+        color: white;
+        margin-left: 0px;
+        height:min-content;
+        font-size:xx-large;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: $tipografia-titulo-home;
+        background-image: $fondo-titulo-home;
+    }
+    .foto {
+        width: 120px;
+        height: 400px;  
+         
+    }   
+
+}
+
+body{
+    font-family: $tipografia-titulo-home;
+}
+
+
+.nuevalista{
+    animation-name: aparecer;  
+    animation-duration: 5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    .padre-flex{
+        display: flex;
+        a{
+            border-bottom: 10px;
+            background-color:map-get($primaryColors, terciary);
+        }
+    }
+        
+}
+footer {
+    padding: 10px;
+    text-align: center;
+    background-image: url(../Img/footermontanas3.jpg);
+    text-align-last: center;
+    border-color: white;
+
+    .efecto{
+        transition: transform 0.5s;
+    }
+    
+    .efecto:hover{
+        transform: scale(1.3);
+    }
+
+    .logofbook{
+        width: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+        
+    .logoWhasap{
+        width: 22px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+        
+    .logoIG{
+        width: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    
+    
+    
+}
